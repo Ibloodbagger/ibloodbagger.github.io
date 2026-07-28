@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Моя личная сборка</title>
+        <style>
+           * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background: #638bc9;
+                font-family: 'Seqoe UI', Tahoma, sans-serif;
+                padding: 20px;
+            }
+            .container {
+                max-width: 1300px;
+                margin: 0 auto;
+            }
+            .header {
+                background: linear-gradient(135deg, #1e2a3a, #2c3e50);
+                color: white;
+                padding: 30px 20px;
+                border-radius: 20px;
+                text-align: center;
+                margin-bottom: 40px;
+                box-shadow: 0 8px 20px rgba(0,0,0,0,.2);
+            }
+            .header h1 {
+                font-size: 38px;
+                letter-spacing: 1px;
+            }
+            .header p {
+                font-size: 18px;
+                opacity: 0.8px;
+                margin-top: 8px;
+            }
+            .mods-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 30px;
+            }
+            .mod-card {
+                background: white;
+                border-radius: 20px;
+                padding: 20px 20px 25px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .mod-card:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+            }
+            .mod-card h3 {
+                font-size: 20px;
+                margin-bottom: 12px;
+                color: #1e2a3a;
+            }
+            .mod-card img {
+                width: 100%;
+                max-width: 260px;
+                height: 160px;
+                object-fit: cover;
+                border-radius: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #6c757d;
+                font-size: 14px;
+                border: 1px dashed #adb5bd;
+                margin-bottom: 15px;
+            }
+            .download-btn {
+                display: inline-block;
+                background: #6e6e6e;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 14px 10px;
+                width: 100%;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 40px;
+                transition: background 0.2s, transform 0.1s;
+                box-sizing: border-box;
+                border: none;
+                cursor: pointer;
+            }
+            .download-btn:hover {
+                background: #638bc9;
+                transform: scale(1.02);
+            }
+            .back-to-top {
+                display: block;
+                text-align: center;
+                margin-top: center;
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 30px;
+            }
+            .back-to-top:hover {
+                color: #000000;
+            }
+            @media (max-width: 600px) {
+                .header h1 { font-size: 26px; }
+                .mods-grid { gap: 20px; }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="header">
+                <h1>Mods from Ibloodbagger</h1>
+                <p>Все моды в одном месте - качай и играй!</p>
+                </div>
+
+                <div class="mods-grid">
+
+                    <div class="mod-card">
+                        <h3>AudiS8D2</h3>
+                        <img src="Audi.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/fV6u-V0nUvBLRQ" class="download-btn" target="_blank">Скачать 66мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>BMW e92-93</h3>
+                        <img src="bmw e92.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/jUM3q8jSmN1cnw" class="download-btn" target="_blank">Скачать 260мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>BMW X7</h3>
+                        <img src="bmw x7.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/4hw7d71LDlLM1g" class="download-btn" target="_blank">Скачать 133мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>BUGGATI MISTRAL</h3>
+                        <img src="buggati mistral.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/w85xOPrUDpINQg" class="download-btn" target="_blank">Скачать 124мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>DODGE 15 CHARGER</h3>
+                        <img src="dodge charger.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/vqDKZaRSfv-4hA" class="download-btn" target="_blank">Скачать 176мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>TOYOTA LAND CRUIZER PRADO 2025</h3>
+                        <img src="toyota prado 2025.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/5pS17ykipHx1_g" class="download-btn" target="_blank">Скачать 111мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>SUBARU IMPREZA WRX</h3>
+                        <img src="subaru impreza wrx.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/mR0pXirGu9Z_lA" class="download-btn" target="_blank">Скачать 458мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>HONDA NSX</h3>
+                        <img src="honda nsx.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/eZyy-u9siaP3ow" class="download-btn" target="_blank">Скачать 630мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>JAGUAR XJ220 1992</h3>
+                        <img src="jaguar xj220 1992.webp" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/xw8zFfxo06kq0Q" class="download-btn" target="_blank">Скачать 222мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>KIA SPORTAGE</h3>
+                        <img src="kia sportage.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/Zwkqr7HB46yeXQ" class="download-btn" target="_blank">Скачать 237мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>MERSEDES A45 AMG</h3>
+                        <img src="Mercedes AMG 45.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/mlvaamKYfgJQ2Q" class="download-btn" target="_blank">Скачать 498мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>MISUBISHI PAJERO SPORT</h3>
+                        <img src="mitsubishi pajero sport.webp" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/WFcW61uadOLj1Q" class="download-btn" target="_blank">Скачать 105мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>BMW M4 F82</h3>
+                        <img src="bmw e92.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/9QYrJGZ8hVtMvQ" class="download-btn" target="_blank">Скачать 631мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>VAZ 2108-21099</h3>
+                        <img src="vaz 2108-2109.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/z823wkPQPj5VqA" class="download-btn" target="_blank">Скачать 400мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>SATSUMA E10</h3>
+                        <img src="satsuma e10.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/ka1Q61wzDrKzZA" class="download-btn" target="_blank">Скачать 285мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>VAZ 2107</h3>
+                        <img src="vaz 2107.webp" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/bmWG_4UG_Lc89w" class="download-btn" target="_blank">Скачать 260мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>GOLF MK 1</h3>
+                        <img src="golf mk 1.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/H-W4PgmEI2OTmQ" class="download-btn" target="_blank">Скачать 354мб </a>
+                    </div>
+                    <div class="mod-card">
+                        <h3>MERSEDES W220</h3>
+                        <img src="mersedes w220.jpg" alt="Скриншот мода">
+                        <a href="https://disk.yandex.ru/d/YsB_o6lFVsj1yA" class="download-btn" target="_blank">Скачать 143мб </a>
+                    </div>
+                    <a href="#" class="back-to-top">ВЕРНУТСЯ НАВЕРХ</a>
+    </body>
+</html>
